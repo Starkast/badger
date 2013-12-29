@@ -1,3 +1,10 @@
+## Dependencies
+
+### Redis
+
+    brew install redis
+    redis-server
+
 ## How to start
 
 This starts hubot using the shell adapter:
