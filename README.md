@@ -59,9 +59,9 @@ Add variable with
 
     heroku config:add KEY=value --app starkastbot|starkastircbot
 
-#### title.coffee
+#### hubot-url-title
 
-    HUBOT_HTTP_INFO_IGNORE_URLS="github.com|twitter.com|imgur.com"
+    HUBOT_URL_TITLE_IGNORE_URLS="github.com|twitter.com|imgur.com"
 
 ## Deployment
 
