@@ -1,5 +1,5 @@
 # Description:
-#   Returns title when links are posted
+#   Returns the title when a link is posted
 #
 # Dependencies:
 #   "jsdom": "0.2.15"
