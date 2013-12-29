@@ -2,5 +2,4 @@
     "redis-brain.coffee"
   , "tweet.coffee"
   , "shipit.coffee"
-  , "http-info.coffee"
 ]
