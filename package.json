@@ -27,7 +27,8 @@
     "hubot-irc": "~0.1.19",
     "jsdom": "~0.8.10",
     "underscore": "~1.5.2",
-    "request": "~2.30.0"
+    "request": "~2.30.0",
+    "hubot-url-title": "0.0.2"
   },
   "engines": {
     "node": ">= 0.8.x",
