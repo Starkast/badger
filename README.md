@@ -5,6 +5,31 @@
     brew install redis
     redis-server
 
+### Environment variables
+
+HipChat (`heroku config --app starkastbot`)
+
+    HUBOT_ADAPTER="hipchat"
+    HUBOT_NAME="Badger"
+
+    HUBOT_HIPCHAT_JID="xxx"
+    HUBOT_HIPCHAT_PASSWORD="xxx"
+
+IRC (`heroku config --app starkastircbot`)
+
+    HUBOT_ADAPTER="irc"
+    HUBOT_IRC_NICK="xxx"
+    HUBOT_IRC_ROOMS="#foo"
+    HUBOT_IRC_SERVER="xxx"
+    HUBOT_IRC_UNFLOOD="true"
+
+__TODO__: `HUBOT_IRC_UNFLOOD` doesn't help (tested on QuakeNet).
+
+Both:
+
+    HEROKU_URL="xxx" # heroku keep-alive trick
+    REDISTOGO_URL="xxx" # redis-brain.coffee
+
 ## How to start
 
 This starts hubot using the shell adapter:
